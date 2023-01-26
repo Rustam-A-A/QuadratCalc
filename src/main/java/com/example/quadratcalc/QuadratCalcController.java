@@ -14,5 +14,11 @@ public class QuadratCalcController {
         return quadrat;
 
     }
+    @GetMapping("/hi")
+    public String salute() {
+
+        return "Happy to see you! Let us know, how big is your square";
+
+    }
 
 }
