@@ -17,7 +17,8 @@ public class QuadratCalcController {
     @GetMapping("/hi")
     public String salute() {
 
-        return "Happy to see you! Let us know, how big is your square?";
+
+        return "Happy to see you! Let us know, how big is your square??";
 
     }
 
